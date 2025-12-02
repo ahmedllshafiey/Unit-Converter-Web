@@ -1,0 +1,16 @@
+{
+  "name": "unit-converter-web",
+  "version": "1.0.0",
+  "description": "unit converter",
+  "keywords": [
+    "unit",
+    "converter"
+  ],
+  "license": "MIT",
+  "author": "Ahmed Elshafiey",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

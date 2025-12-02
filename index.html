@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="box">
+        <h2 class="title">Unit Converter</h2>
+        <div class="tabs">
+            <button class="tablinks" onclick="openConverter(event, 'Length')">Length</button>
+            <button class="tablinks" onclick="openConverter(event, 'Temperature')">Temperature</button>
+            <button class="tablinks" onclick="openConverter(event, 'Weight')">Weight</button>
+        </div>
+        <div class="length">
+            <p class="label">Enter the length to convert</p>
+            <input type="number" class="input" placeholder="Enter length">
+            <p class="label">Enter Unit to convert from</p>
+            <input type="number" class="input" placeholder="Unit to convert from">
+            <p class="label">Enter Unit to convert to</p>
+            <input type="number" class="input" placeholder="Unit to convert to">
+        </div>
+    </div>
+</body>
+</html>

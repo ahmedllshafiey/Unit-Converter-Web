@@ -1,0 +1,45 @@
+.box {
+    height: 650px;
+    width: 500px;
+    background-color: black;
+}
+
+.title {
+    color: white;
+    margin: 10px; 
+    padding-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.tabs {
+    display: flex;
+    margin: 10px;
+}
+
+.tablinks {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.tablinks:hover {
+    background-color: #555;
+}
+
+.label {
+    color: white;
+    margin: 20px 10px 10px 10px;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+}
+
+.input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 10px;
+    font-size: 16px;
+}
