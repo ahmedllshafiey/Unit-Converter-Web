@@ -19,25 +19,53 @@
             <p class="label">Enter the length to convert</p>
             <input type="number" class="input" placeholder="Enter length">
             <p class="label">Enter Unit to convert from</p>
-            <input type="number" class="input" placeholder="Unit to convert from">
+            <select class="select-input" name="len-units" id="len-units">
+                <option value="meters">Meters</option>
+                <option value="kilometers">Kilometers</option>
+                <option value="miles">Miles</option>
+                <option value="feet">Feet</option>
+            </select>
             <p class="label">Enter Unit to convert to</p>
-            <input type="number" class="input" placeholder="Unit to convert to">
+            <select class="select-input" name="len-units-to" id="len-units-to">
+                <option value="meters">Meters</option>
+                <option value="kilometers">Kilometers</option>
+                <option value="miles">Miles</option>
+                <option value="feet">Feet</option>
+            </select>
         </div>
         <div class="weight">
             <p class="label">Enter the Weight to convert</p>
             <input type="number" class="input" placeholder="Enter weight">
             <p class="label">Enter Unit to convert from</p>
-            <input type="number" class="input" placeholder="Unit to convert from">
+            <select class="select-input" name="weight-units-from" id="weight-units-from">
+                <option value="kilograms">Kilograms</option>
+                <option value="grams">Grams</option>
+                <option value="pounds">Pounds</option>
+                <option value="ounces">Ounces</option>
+            </select>
             <p class="label">Enter Unit to convert to</p>
-            <input type="number" class="input" placeholder="Unit to convert to">
+            <select class="select-input" name="weight-units-to" id="weight-units-to">
+                <option value="kilograms">Kilograms</option>
+                <option value="grams">Grams</option>
+                <option value="pounds">Pounds</option>
+                <option value="ounces">Ounces</option>
+            </select>
         </div>
         <div class="temperature">
             <p class="label">Enter the Temperature to convert</p>
             <input type="number" class="input" placeholder="Enter temperature">
             <p class="label">Enter Unit to convert from</p>
-            <input type="number" class="input" placeholder="Unit to convert from">
+            <select class="select-input" name="temp-units-from" id="temp-units-from">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
             <p class="label">Enter Unit to convert to</p>
-            <input type="number" class="input" placeholder="Unit to convert to">
+            <select class="select-input" name="temp-units-to" id="temp-units-to">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
         </div>
 
         <button class="convert-btn">Convert</button>
