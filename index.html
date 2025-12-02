@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/script.js" defer></script>
     <title>Unit Converter</title>
 </head>
 <body>
     <div class="box">
         <h2 class="title">Unit Converter</h2>
         <div class="tabs">
-            <button class="tablinks" onclick="openConverter(event, 'Length')">Length</button>
-            <button class="tablinks" onclick="openConverter(event, 'Temperature')">Temperature</button>
-            <button class="tablinks" onclick="openConverter(event, 'Weight')">Weight</button>
+            <button class="tablinks" id="len-btn">Length</button>
+            <button class="tablinks" id="temp-btn">Temperature</button>
+            <button class="tablinks" id="weight-btn">Weight</button>
         </div>
         <div class="length">
             <p class="label">Enter the length to convert</p>
