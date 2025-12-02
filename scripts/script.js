@@ -22,6 +22,21 @@ function openConverter(event, tabName) {
     event.currentTarget.classList.add("active");
 }
 
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+    document.querySelector(".box").classList.toggle("dark-mode");
+    lenBtn.classList.toggle("dark-mode");
+    tempBtn.classList.toggle("dark-mode");
+    weightBtn.classList.toggle("dark-mode");
+    document.querySelectorAll(".convert-btn").forEach(btn => {
+        btn.classList.toggle("dark-mode");
+    });
+    document.querySelector(".image").classList.toggle("dark-mode");
+}
+
+let darkBtn = document.querySelector(".dark-btn");
+darkBtn.addEventListener("click", toggleDarkMode);
+
 // Add event listeners to buttons
 lenBtn.addEventListener("click", (event) => openConverter(event, "Length"));
 tempBtn.addEventListener("click", (event) => openConverter(event, "Temperature"));
